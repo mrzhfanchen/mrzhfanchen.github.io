@@ -1,68 +1,41 @@
 <!DOCTYPE html>
-<html lang="zn">
-
+<html lang="zh">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>明日之后凡尘</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/index.js"></script>
 </head>
-<style>
-    *{
-        margin: 0;
-        padding: 0;
-    }
-    img {
-        width: 100%;
-        height: 100%;
-    }
-    p{
-        font-weight: 700;
-        font-size: 45px;
-    }
-    div{
-        border: 2px solid rgb(0, 0, 0);
-    }
-</style>
-
 <body>
-    <div>
-        <p>宝石山湾</p>
-        <img src="./mrzhbssw1.png" alt="">
-        <img src="./mrzhbssw2.png" alt="">
-        <img src="./mrzhbssw3.png" alt="">
-        <img src="./mrzhbssw3.png" alt="">
-        <img src="./mrzhbssw4.png" alt="">
-        <img src="./mrzhbssw5.png" alt="">
-        <img src="./mrzhbssw6.png" alt="">
-        <img src="./mrzhbssw7.png" alt="">
-        <img src="./mrzhbssw8.png" alt="">
-        <img src="./mrzhbssw9.png" alt="">
-        <img src="./mrzhbssw10.png" alt="">
-        <img src="./mrzhbssw11.png" alt="">
-        <img src="./mrzhbssw12.png" alt="">
-        <img src="./mrzhbssw13.png" alt="">
-        <img src="./mrzhbssw14.png" alt="">
-        <img src="./mrzhbssw15.png" alt="">
-        <img src="./mrzhbssw16.png" alt="">
-        <img src="./mrzhbssw17.png" alt="">
-        <img src="./mrzhbssw18.png" alt="">
-        <img src="./mrzhbssw19.png" alt="">
-        <img src="./mrzhbssw20.png" alt="">
-        <img src="./mrzhbssw21.png" alt="">
-        <img src="./mrzhbssw22.png" alt="">
-        <img src="./mrzhbssw23.png" alt="">
-        <img src="./mrzhbssw24.png" alt="">
-        <img src="./mrzhbssw25.png" alt="">
-        <img src="./mrzhbssw26.png" alt="">
-        <img src="./mrzhbssw27.png" alt="">
-        <img src="./mrzhbssw28.png" alt="">
-        <img src="./mrzhbssw29.png" alt="">
-        <img src="./mrzhbssw30.png" alt="">
-        <img src="./mrzhbssw31.png" alt="">
-        <img src="./mrzhbssw32.png" alt="">
-        <img src="./mrzhbssw33.png" alt="">
-    </div>
+    <header>
+        <div class="content">
+            <!-- 轮播图 -->
+            <div id="container">
+                <div id="pre">
+                    <p></p>
+                </div>
+                <div id="next">
+                    <p></p>
+                </div>
+            <div id="list">
+                <a href="#" style="z-index: 4; opacity: 1;"><img src="./img/BaoshanBay/mrzhbssw1.png"></a>
+                <a href="#" style="z-index: 0;opacity: 0;"><img src="./img/BaoshanBay/mrzhbssw2.png"></a>
+                <a href="#" style="z-index: 0;opacity: 0;"><img src="./img/BaoshanBay/mrzhbssw3.png"></a>
+                <a href="#" style="z-index: 0;opacity: 0;"><img src="./img/BaoshanBay/mrzhbssw4.png"></a>
+            </div>
+            <div id="dot">
+                <span data-index="0" class="on">
+                </span>
+                <span data-index="1"> 
+                </span>
+                <span data-index="2">
+                </span>
+                <span data-index="3">
+                </span>
+            </div>
+        </div>
+    </header>
 </body>
-
 </html>
